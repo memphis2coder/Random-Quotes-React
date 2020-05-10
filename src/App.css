@@ -1,38 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#quote-box-inner {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+#author {
+  font-family: sans-serif;
+  width: 100%;
+  text-align: right;
+  font-weight: lighter;
+  color: gray;
+  margin-top: 2rem;
+}
+
+#quote-controls {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: lightseagreen;
   color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  opacity: .8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#tweet-quote {
+  text-decoration: none;
+}
+
+#new-quote {
+  font-size: 1rem;
 }
