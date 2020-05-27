@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My Random Quote Machine App built with React. This app will give you a random quote to start your day off right.
+
+I learned how to use {UseState, useEffect}, fetch data, and handleClickEvents. 
 
 ## Available Scripts
 
